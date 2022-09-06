@@ -1,0 +1,32 @@
+.rt
+{
+    display: block;
+    color: green;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 30px;
+    padding-right: 60px;
+}
+.M
+{
+    height: 100px;
+    width: 100px;
+}
+.G
+{
+    margin-left: 400px;
+   
+}
+.f
+{
+    margin-left: 495px;
+    color: blue;
+    
+}
+.router
+{
+    color: blue;
+    margin-left: 495px;
+
+}

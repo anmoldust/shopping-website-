@@ -1,0 +1,17 @@
+.ia
+{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   max-width: 100ch;
+}
+.is
+{
+   max-width: 100px;
+   max-height: 90px;
+}
+.btn btn-danger
+{
+   background-color: blueviolet !important;
+   color: blue !important;
+}

@@ -1,0 +1,59 @@
+<ng-container *ngIf="true">
+    <div class="card-table">
+       <div class="card-product">
+           <table class="table table-responsive">
+               <thead>
+                   <tr>
+                       <th>Sr.no</th>
+                       <th>imageOFproduct</th>
+                       <th>product</th>
+                       <th>about</th>
+                       <th>quantity</th>
+                       <th>price</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr *ngFor="let item of productitem,let i=index">
+                   <td>{{item.title}}</td>
+                   <td><img src="{{item.image}}" alt="" class="M"></td>
+                   <td>{{item.price}}</td>
+                   <td>{{item.description}}</td>
+                   <td>{{item.quantity}}</td>
+                   <td>this is not good</td>
+               
+                     
+                   <td><button class="rt" (click)="removeProduct(item)">remove</button></td>
+                   
+               </tr>
+               <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                   <td class="G"> <strong>Grand_Total=></strong>{{allproducts}}</td>
+               </tr>
+               </tbody>
+           </table>
+       </div>
+    </div>   
+   </ng-container>
+   <form #login="ngForm"  (ngSubmit)="loginu(login.value)">
+    <div class="f"> 
+    NAME<input type="text" required #name="ngModel" pattern="[a-zA-Z]+$" name="name"  placeholder="enter your name" ngModel >
+     
+     <span *ngIf="name.invalid && name.touched" style="color: red;">it is contain minimun 3 letter and  should  not contain space </span>
+     
+    </div>
+    <div class="f">
+     PASSWORD<input type="password"required #password="ngModel"  name="password" minlength="8" placeholder="enter the password" ngModel>
+     <span *ngIf="password.invalid && password.touched"  style="color: red;">it should contain minimun 8 aphanumberic character</span>
+    </div>
+     <div class="f">
+      CARDNO<input type="number"required #card="ngModel"  name="card" minlength="16" placeholder="card number" ngModel>
+     <span *ngIf="card.invalid && card.touched"  style="color: red;">it  should contain 16 digits </span>
+       </div>
+       <div class="f">
+     <button>login</button>
+    </div>
+   <button routerLink="/success" class="router">PlaceOrder</button>

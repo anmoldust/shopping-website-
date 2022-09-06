@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngFor="let item of users">
+      <div class="card col-md-3">
+      <img src="{{item.image}}" alt="" class="is">
+      <h4 class="ia">{{item.data}}</h4>
+      <p class="ia">{{item.description}}</p>
+      <p >${{item.price}}</p>
+      <form #login="ngForm"  (ngSubmit)="loginu(login.value)">
+        <input type="number" required #quantity="ngModel" minnumber="1"  name="quantity"  placeholder="enter your quantity" ngModel >
+      </form>
+      <button class="btn btn-danger" (click)="addtocart(item)">cart</button>
+     
+  
+    </div>
+    </ng-container>
+  </div>
+</div>

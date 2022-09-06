@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "mouse",
+      "price": 130,
+      "image": "https://i5.walmartimages.com/asr/4a105087-90e0-46d1-96b0-e3bfaa1104f5_1.609df7538f3f6323a5eb4ec8bdadf39b.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+      "description": "NICE!"
+    },
+    {
+      "id": 2,
+      "title": "Headphones",
+      "price": 150,
+      "image": "https://rekkerd.org/wp-content/uploads/2019/01/Neumann-NDH-20.jpg",
+      "description": "NICE"
+    },
+    {
+      "id": 3,
+      "title": "earphone",
+      "price": 130,
+      "image": "https://th.bing.com/th/id/OIP.gSPbyg8fxDJaPJncyDybywHaHa?pid=ImgDet&rs=1",
+      "description": "NICE!"
+    },
+    {
+      "id": 4,
+      "title": "BAG",
+      "price": 60,
+      "image": "https://i5.walmartimages.com/asr/c2c22938-faec-498a-8563-804033c18d0e.f74519cd25f2765fffdc1f018304fbed.jpeg",
+      "description": "NICE!"
+    },
+    {
+      "id": 5,
+      "title": "laptop",
+      "price": 120,
+      "image": "https://i5.walmartimages.com/asr/2d10a256-68b7-4016-b054-9e566b15c8af_1.cc386d9dc265f52f289384b0003679a4.jpeg",
+      "description": "NICE!"
+    },
+    {
+      "id": 6,
+      "title": "SMARTPHONE",
+      "price": 102,
+      "image": "https://en.letsgodigital.org/uploads/2017/12/nokia-9-smartphone.jpg",
+      "description": "NICE"
+    }
+  ]
